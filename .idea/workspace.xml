@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0687f0bc-e4b9-402d-b925-08738e7fb0c8" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/basic-code/target/" />
+    <ignored path="$PROJECT_DIR$/spring-activeMQ/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-activemq/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/basic-code/pom.xml" />
+        <option value="$PROJECT_DIR$/basic-code/src/main/java/cn/duheng/HelloWorld/HelloWorld.java" />
+        <option value="$PROJECT_DIR$/basic-code/src/main/java/cn/duheng/HelloWorld/Customer.java" />
+        <option value="$PROJECT_DIR$/basic-code/src/main/java/cn/duheng/HelloWorld/CustomerListener.java" />
+        <option value="$PROJECT_DIR$/basic-code/src/main/java/cn/duheng/topic/ProducerTopic.java" />
+        <option value="$PROJECT_DIR$/basic-code/src/main/java/cn/duheng/topic/ConsumerTopic.java" />
+        <option value="$PROJECT_DIR$/basic-code/src/main/java/cn/duheng/HelloWorld/ProductDemo.java" />
+        <option value="$PROJECT_DIR$/basic-code/src/main/java/cn/duheng/persistent/QueuePersistent.java" />
+        <option value="$PROJECT_DIR$/basic-code/src/main/java/cn/duheng/persistent/queue/QueuePersistent.java" />
+        <option value="$PROJECT_DIR$/basic-code/src/main/java/cn/duheng/persistent/queue/ProducterPersistent.java" />
+        <option value="$PROJECT_DIR$/basic-code/src/main/java/cn/duheng/persistent/queue/ConsumerPersistent.java" />
+        <option value="$PROJECT_DIR$/basic-code/src/main/java/cn/duheng/persistent/queue/ProducerPersistent.java" />
+        <option value="$PROJECT_DIR$/basic-code/src/main/java/cn/duheng/helloworld/queue/ProductDemo.java" />
+        <option value="$PROJECT_DIR$/basic-code/src/main/java/cn/duheng/persistent/topic/SubscriberPersistentTopic.java" />
+        <option value="$PROJECT_DIR$/basic-code/src/main/java/cn/duheng/persistent/topic/ProducerPersistentTopic.java" />
+        <option value="$PROJECT_DIR$/spring-activeMQ/src/main/java/cn/duheng/activemq/Producer.java" />
+        <option value="$PROJECT_DIR$/spring-activeMQ/src/test/java/cn/duheng/activemq/ProducerTest.java" />
+        <option value="$PROJECT_DIR$/spring-activeMQ/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-activeMQ/src/main/resources/springContext.xml" />
+        <option value="$PROJECT_DIR$/spring-activeMQ/src/main/java/cn/duheng/activemq/MessageListenerImpl.java" />
+        <option value="$PROJECT_DIR$/spring-activeMQ/src/test/java/cn/duheng/activemq/QueueOrTopicTest.java" />
+        <option value="$PROJECT_DIR$/spring-activemq/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-activemq/src/main/resources/springContext.xml" />
+        <option value="$PROJECT_DIR$/spring-activemq/src/main/java/cn/duheng/activemq/MessageListenerImpl.java" />
+        <option value="$PROJECT_DIR$/spring-activemq/src/test/java/cn/duheng/activemq/Producer.java" />
+        <option value="$PROJECT_DIR$/spring-activemq/src/test/java/cn/duheng/activemq/ProducerTest.java" />
+        <option value="$PROJECT_DIR$/spring-activemq/src/main/java/cn/duheng/activemq/Porducer.java" />
+        <option value="$PROJECT_DIR$/spring-activemq/src/test/java/cn/duheng/activemq/PorducerTest.java" />
+        <option value="$PROJECT_DIR$/springboot-activemq/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springboot-activemq/src/main/java/cn/duheng/activemq/config/Destination.java" />
+        <option value="$PROJECT_DIR$/springboot-activemq/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-activemq/src/test/java/cn/duheng/activemq/mq/ProvideTest.java" />
+        <option value="$PROJECT_DIR$/springboot-activemq/src/test/java/cn/duheng/activemq/mq/Consumer.java" />
+        <option value="$PROJECT_DIR$/springboot-activemq/src/test/java/cn/duheng/activemq/mq/ConsumerTest.java" />
+        <option value="$PROJECT_DIR$/springboot-activemq/src/main/java/cn/duheng/activemq/mq/Consumer.java" />
+        <option value="$PROJECT_DIR$/springboot-activemq/src/main/java/cn/duheng/activemq/mq/Provide.java" />
+        <option value="$PROJECT_DIR$/springboot-activemq/src/main/java/cn/duheng/activemq/config/DestinationBean.java" />
+        <option value="$PROJECT_DIR$/springboot-activemq/src/main/java/cn/duheng/activemq/SpringbootActivemqApplication.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\store\maven" />
+        <option name="mavenHome" value="D:/programInstall_java/apache-maven-3.5.0" />
+        <option name="userSettingsFile" value="D:\programInstall_java\apache-maven-3.5.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springboot-activemq" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springboot-activemq" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springboot-activemq" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="948" />
+    <option name="width" value="981" />
+    <option name="height" value="1092" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.35402298" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="cn.duheng.activemq.mq" />
+      <recent name="cn.duheng.activemq" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="cn.duheng.activemq.mq" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringbootActivemqApplication">
+    <configuration name="PorducerTest.createMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-activemq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.duheng.activemq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.duheng.activemq" />
+      <option name="MAIN_CLASS_NAME" value="cn.duheng.activemq.PorducerTest" />
+      <option name="METHOD_NAME" value="createMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerTest.createMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-activemq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.duheng.activemq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.duheng.activemq" />
+      <option name="MAIN_CLASS_NAME" value="cn.duheng.activemq.ProducerTest" />
+      <option name="METHOD_NAME" value="createMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Producer.createMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-activemq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.duheng.activemq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.duheng.activemq" />
+      <option name="MAIN_CLASS_NAME" value="cn.duheng.activemq.Producer" />
+      <option name="METHOD_NAME" value="createMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProvideTest.sendMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-activemq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.duheng.activemq.mq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.duheng.activemq.mq" />
+      <option name="MAIN_CLASS_NAME" value="cn.duheng.activemq.mq.ProvideTest" />
+      <option name="METHOD_NAME" value="sendMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueueOrTopicTest.createMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-activeMQ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.duheng.activemq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.duheng.activemq" />
+      <option name="MAIN_CLASS_NAME" value="cn.duheng.activemq.QueueOrTopicTest" />
+      <option name="METHOD_NAME" value="createMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringActivemqApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-activemq" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.duheng.activemq.SpringActivemqApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootActivemqApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-activemq" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.duheng.activemq.SpringbootActivemqApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ProvideTest.sendMessage" />
+        <item itemvalue="JUnit.PorducerTest.createMessage" />
+        <item itemvalue="JUnit.ProducerTest.createMessage" />
+        <item itemvalue="JUnit.Producer.createMessage" />
+        <item itemvalue="JUnit.QueueOrTopicTest.createMessage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\19701\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0687f0bc-e4b9-402d-b925-08738e7fb0c8" name="Default Changelist" comment="" />
+      <created>1592973187306</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592973187306</updated>
+      <workItem from="1592973194030" duration="4431000" />
+      <workItem from="1593063688926" duration="13022000" />
+      <workItem from="1593093118751" duration="22160000" />
+      <workItem from="1593250521322" duration="8312000" />
+      <workItem from="1593308366614" duration="1291000" />
+      <workItem from="1593311369997" duration="16919000" />
+      <workItem from="1593396704987" duration="130000" />
+      <workItem from="1593396867149" duration="20000" />
+      <workItem from="1593505879364" duration="277000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ProducerTest_createMessage - 2020.06.28 at 11h 54m 50s.xml">
+      <configuration name="ProducerTest.createMessage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProducerTest_createMessage - 2020.06.28 at 11h 58m 15s.xml">
+      <configuration name="ProducerTest.createMessage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PorducerTest_createMessage - 2020.06.28 at 12h 01m 29s.xml">
+      <configuration name="PorducerTest.createMessage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PorducerTest_createMessage - 2020.06.28 at 12h 04m 08s.xml">
+      <configuration name="PorducerTest.createMessage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PorducerTest_createMessage - 2020.06.28 at 12h 05m 34s.xml">
+      <configuration name="PorducerTest.createMessage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProvideTest_sendMessage - 2020.06.28 at 15h 17m 48s.xml">
+      <configuration name="ProvideTest.sendMessage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProvideTest_sendMessage - 2020.06.28 at 15h 24m 40s.xml">
+      <configuration name="ProvideTest.sendMessage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProvideTest_sendMessage - 2020.06.28 at 15h 26m 44s.xml">
+      <configuration name="ProvideTest.sendMessage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProvideTest_sendMessage - 2020.06.28 at 15h 28m 11s.xml">
+      <configuration name="ProvideTest.sendMessage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProvideTest_sendMessage - 2020.06.28 at 16h 50m 05s.xml">
+      <configuration name="ProvideTest.sendMessage" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="66562000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33021078" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.1589404" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39900663" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.27317882" />
+      <window_info anchor="bottom" id="Duplicate detector" order="13" weight="0.3294702" />
+      <window_info anchor="bottom" id="Spring" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.32983023" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/basic-code/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="11" selection-start-line="11" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/geronimo-jms_1.1_spec-1.1.1.jar!/javax/jms/MessageListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/geronimo-jms_1.1_spec-1.1.1.jar!/javax/jms/TextMessage.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic-code/src/main/java/cn/duheng/helloworld/topic/ConsumerTopic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="38" column="11" lean-forward="true" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic-code/src/main/java/cn/duheng/helloworld/topic/ProducerTopic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic-code/src/main/java/cn/duheng/persistent/queue/ProducerPersistent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="34" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic-code/src/main/java/cn/duheng/persistent/queue/ConsumerPersistent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic-code/src/main/java/cn/duheng/HelloWorld/queue.java" />
+    <entry file="file://$PROJECT_DIR$/basic-code/src/main/java/cn/duheng/helloworld/queue/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic-code/src/main/java/cn/duheng/helloworld/queue/CustomerListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic-code/src/main/java/cn/duheng/helloworld/queue/ProductDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" selection-start-column="29" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic-code/src/main/java/cn/duheng/persistent/topic/SubscriberPersistentTopic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic-code/src/main/java/cn/duheng/persistent/topic/ProducerPersistentTopic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-activeMQ/src/main/java/cn/duheng/activemq/Producer.java" />
+    <entry file="file://$PROJECT_DIR$/spring-activeMQ/src/test/java/cn/duheng/activemq/ConsumerTest.java" />
+    <entry file="file://$PROJECT_DIR$/spring-activeMQ/src/test/java/cn/duheng/activemq/QueueOrTopicTest.java" />
+    <entry file="file://$PROJECT_DIR$/spring-activemq/src/test/java/cn/duheng/activemq/ProducerTest.java" />
+    <entry file="file://$PROJECT_DIR$/spring-activemq/src/main/java/cn/duheng/activemq/Porducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-activemq/src/test/java/cn/duheng/activemq/PorducerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#687#912#0" expanded="true" />
+            <element signature="e#911#912#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-activemq/src/main/java/cn/duheng/activemq/MessageListenerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-activemq/HELP.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="315">
+            <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-activemq/mvnw.cmd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2961" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-activemq/src/main/resources/springContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="77" lean-forward="true" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.7.RELEASE/spring-context-5.2.7.RELEASE.jar!/org/springframework/context/annotation/Configuration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/WeChat Files/heart768183234/FileStorage/File/2020-06/ExportExcelHlBL.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-activemq/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="35" selection-start-line="35" selection-end-line="39" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-activemq/src/test/java/cn/duheng/activemq/mq/ConsumerTest.java" />
+    <entry file="file://$PROJECT_DIR$/springboot-activemq/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1134">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-activemq/src/main/java/cn/duheng/activemq/SpringbootActivemqApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-activemq/src/main/java/cn/duheng/activemq/config/DestinationBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-activemq/src/main/java/cn/duheng/activemq/mq/Provide.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="903">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-activemq/src/test/java/cn/duheng/activemq/mq/ProvideTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-activemq/src/main/java/cn/duheng/activemq/mq/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jms/5.2.7.RELEASE/spring-jms-5.2.7.RELEASE.jar!/org/springframework/jms/annotation/JmsListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-activemq/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.35402298" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.35402298" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>springboot-activemq</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.35402298" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.1994382" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: org.apache.activemq:activemq-client:5.15.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.35402298" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

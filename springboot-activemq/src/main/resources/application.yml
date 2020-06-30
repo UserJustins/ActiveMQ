@@ -1,0 +1,13 @@
+spring:
+  activemq:
+    broker-url: tcp://192.168.246.135:61616
+    user: admin
+    password: admin
+  #如果是点对点（queue），那么此处默认应该是false，如果发布订阅，那么一定设置为true
+  jms:
+    pub-sub-domain: false
+#目的地的名称
+destination-queue-name: TEST.FOO
+
+
+

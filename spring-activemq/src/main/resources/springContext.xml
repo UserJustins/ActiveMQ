@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--使用连接池配置连接-->
+    <bean id="jmsFactory" class="org.apache.activemq.pool.PooledConnectionFactory">
+        <property name="connectionFactory">
+            <bean class="org.apache.activemq.ActiveMQConnectionFactory">
+                <property name="brokerURL" value="tcp://192.168.246.135:61616"/>
+            </bean>
+        </property>
+        <property name="maxConnections" value="100"/>
+    </bean>
+    <!--设置目的地 Queue-->
+    <bean id="destinationQueue" class="org.apache.activemq.command.ActiveMQQueue">
+        <constructor-arg index="0" value="QUEUE_NAME"/>
+    </bean>
+    <!--设置目的地 Topic-->
+    <bean id="destinationTopic" class="org.apache.activemq.command.ActiveMQTopic">
+        <constructor-arg index="0" value="TOPIC_NAME"/>
+    </bean>
+    <!--spring 提供JMSTemplate对消息进行操作-->
+    <bean id="jmsTemplate" class="org.springframework.jms.core.JmsTemplate">
+        <property name="connectionFactory" ref="jmsFactory"/>
+        <!--<property name="defaultDestination" ref="destinationQueue"/>-->
+        <property name="defaultDestination" ref="destinationTopic"/>
+        <!--消息自动转换-->
+        <property name="messageConverter">
+            <bean class="org.springframework.jms.support.converter.SimpleMessageConverter"/>
+        </property>
+    </bean>
+    <!--activeMQ监听器-->
+    <bean id="jmsContainer" class="org.springframework.jms.listener.DefaultMessageListenerContainer">
+        <property name="connectionFactory" ref="jmsFactory"/>
+        <property name="destination" ref="destinationTopic"/>
+        <property name="messageListener" ref="messageListenerImpl"/>
+    </bean>
+    <!--监听程序-->
+    <bean id="messageListenerImpl" class="cn.duheng.activemq.MessageListenerImpl"/>
+</beans>
